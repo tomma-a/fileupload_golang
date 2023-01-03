@@ -1,0 +1,16 @@
+<html>
+<head>
+       <title>Upload file</title>
+	<link href="/static/bootstrap/bootstrap.min.css" rel="stylesheet"> </link>
+	<script src="/static/bootstrap/bootstrap.min.js"> </script>
+</head>
+<body>
+<div class="container">
+<form enctype="multipart/form-data" action="/upload" method="post">
+    <input type="file" name="uploadfile" class="form-control text-primary" multiple/>
+    <input type="submit" class="btn btn-primary" value="upload" />
+</form>
+</div>
+
+</body>
+</html>
